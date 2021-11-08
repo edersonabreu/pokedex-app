@@ -1,0 +1,188 @@
+    *{
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .ground{
+        background-color: #87544e;
+    }
+    .psychic{
+        background-color: #4ca5a6;
+    }
+    .fighting{
+        background-color: #ccc;
+    }
+  .rock {
+    background-color: #b1736c;
+  }
+  .ghost {
+    background-color: #333;
+  }
+  .electric {
+    background-color: #ffce4b;
+  }
+  .bug {
+    background-color: #F6D6A7;
+  }
+  .poison {
+    background-color: #7c538c;
+  }
+  .normal {
+    background-color: #F4F4F4;
+  }
+  .fairy {
+    background-color: rgba(199, 149, 157, 0.863);
+  }
+  .fire {
+    background-color: #fb6c6c;
+  }
+  .grass {
+    background-color:#48d0b0;
+  }
+  .water {
+    background-color:#609fb5;
+  }
+  .normal{
+    background-color:#76bdfe;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 3rem 0.5rem;
+  }
+
+  .app-container h1 img{
+    min-width: 180px;
+    max-width: 300px;
+  }
+  .pokemon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .all-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pokeball-icon img{
+    opacity: 0.4;
+  }
+  .thumb-container{
+    overflow: hidden;
+    position: relative;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 0.8rem;
+    min-width: 20%;
+    height: 195px;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .thumb-container:hover{
+    transform: scale(1.02);
+  }
+  h3 {
+    margin-bottom: 0.2rem;
+  }
+  .thumb-container .number {
+    width: 100%;
+    text-align: right;
+
+  }
+  .thumb-container .number small{
+    display: inline-block;
+    font-size: 42px;
+    opacity: 0.4;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.2rem 0.4rem;
+  }
+
+  .thumb-container .image{
+    text-align: center;
+    position: inherit;
+    z-index: 1;
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .thumb-container .image img {
+    max-width: 120px;
+    max-height: 120px;
+  }
+
+  .thumb-container .detail-wrapper{
+      width: 50%;
+      display: inline-block;
+      vertical-align: middle;
+  }
+
+  .thumb-container .detail-wrapper h3{
+    margin: 0 0 20px 0;
+    color: #fff;
+    font-size: 23px;
+  }
+  .thumb-container .detail-wrapper small{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 20px;
+    background-color: rgba(255, 192, 203, 0.6);
+    padding: 2px 8px;
+    display: inline-block;
+  }
+
+  .thumb-container .pokeball-icon{
+    position: absolute;
+    right: -2px;
+    bottom: -15px;
+    max-width: 145px;
+  }
+
+  .thumb-container .pokeball-icon img{
+      max-width: 100%;
+      height: auto;
+  }
+
+  .detail-wrapper {
+    width: 100%;
+  }
+  .detail-wrapper button {
+    color: rgb(22, 22, 22);
+    padding: .5rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.185);
+  }
+  .load-more {
+    background: #ffce31;
+    font-weight: 800;
+    border: 3px solid #ffce31;
+    border-radius: 20px;
+    font-size: 22px;
+    color: #fff;
+    padding: 0.5rem 1.0rem;
+    margin-top: 1rem;
+    transition: all 0.3s;
+  }
+
+  .load-more:hover{
+      cursor: pointer;
+      background-color: #333199;
+      border: 3px solid #333199;
+  }
+
+  .load-more:focus{
+      outline: none;
+  }
